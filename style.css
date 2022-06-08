@@ -1,0 +1,211 @@
+body{
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 100%;
+    min-width: 100%;
+  
+}
+.navigation{
+    background-color: black;
+    width: 100%;
+    padding: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+    text-align: left;
+    display:inline-block;
+    vertical-align:top;
+    background: black;
+}
+.navigation ul{
+    padding: 0;
+    float: right;
+       
+}
+.navigation li{
+    float: left;
+}
+.navigation a{
+    width: 150px;
+    display: block;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+.navigation img {
+    float: left;
+    align-self: center;
+}
+.home{
+    text-align: center;
+    width: 100%;
+    height: 500px;
+    background-image: url(./assets/backgroundhome.jpg);
+    padding-top:100px ;
+    object-fit: contain;
+  
+}
+.home h1{
+    color: white;
+}
+.home p{
+    margin-top: 30px;
+    color: white;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-right: 100px;
+
+}
+#whatWeDo{
+    height: 400px;
+    background-color: white;
+    text-align: center;
+    width: 100%;
+    padding: 3%;
+    max-width: 100%;
+  
+ 
+}
+
+.whatWeDocontainer{
+    background-color: white;
+    width: 33%;
+    float: left;
+    text-align: center;
+      
+}
+.whatWeDocontainer img{
+    width: 80px;
+    height: 80px;
+    margin-top: 20px;
+}
+.whatWeDocontainer h2{
+    color: black;
+    text-align: center;
+    
+}
+#whatWeDocontainer p{
+    margin-top: 20px;
+    color: black;
+    font-size: 14px;
+    
+}
+.portfolio-heading{
+    text-align: center;
+    background-color: white;
+    margin: 0;
+}
+.portfolio{
+    width: 100%;
+    height: 400px;
+    background-color: beige;
+    display: flex;
+    text-align: center;
+    
+    
+}
+.portfolio-container{
+    width: 33%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+
+}
+#portone{
+    background-image: url(./assets/avidreader.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#porttwo{
+    background-image: url(./assets/loancalculator.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+#portthree{
+    background-image: url(./assets/speedtest.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.portfolio button{
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+.contact{
+    height: auto;
+    background: black;
+    color: white;
+    padding-bottom: 20px;
+}
+.contact-heading {
+    margin-left: 50%;
+    padding-top: 40px;
+}
+#contact-form {
+    margin-left: 300px;
+    height: auto; 
+    color: white;
+    margin-bottom: 20px;
+    
+}
+#contact-form input {
+    background: none;
+    border: 2px solid white;
+    width: 33%;
+    height:auto;
+    color: white;
+    margin-left: 100px;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+#contact-message {
+    padding-left: 100px;
+    padding-top: 50px;
+}
+textarea {
+    width: 77%;
+    height: 250px;
+    background: none;
+    border: 2px solid white;
+    padding: 20px;
+    color: white;
+}
+
+.submit-button {
+    background: none;
+    color: white; 
+    border: 2px solid white;
+    width: 30%;
+    height: 50px;
+    margin-left: 30%;
+    margin-top: 40px;
+}
+#buttonArea{
+    margin-bottom: 20px;
+}
+.footer{
+    height: auto;
+    text-align: center;
+    padding: 5px;
+    background-color: white;
+}
+.footer img{
+    margin-top: 5px;
+    margin-left: 20px;
+    width: 40px;
+    height: 40px;
+    
+}
+
