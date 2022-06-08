@@ -3,6 +3,7 @@
     <head>
 
         <link rel = "stylesheet" href="style.css"/>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
         <script src = "index.js"></script>
         <title>Peter Ndumia</title>
         
@@ -61,16 +62,16 @@
         <div class="portfolio" id="portfolio">
             <h2>My portfolio</h2>
           <div class="portfolio-container" id="portone" >
-            <button id="viewBtn" >View Project</button>
-            <script src="index.js"></script>
+            <button id="viewBtn" onclick="hello()" >View Project</button>
+          
           </div>
           <div class="portfolio-container" id="porttwo" >
-            <button id="viewBtn" id="">View Project</button>
-            <script src="index.js"></script>
+            <button id="viewBtn" onclick="hello()">View Project</button>
+           
           </div>
           <div class="portfolio-container" id="portthree" >
-            <button id="viewBtn" >View Project</button>
-            <script src="index.js"></script>
+            <button id="viewBtn" onclick="hello()">View Project</button>
+          
           </div>
         </div>
   
@@ -89,7 +90,7 @@
                     <textarea placeholder="Your Message here"> </textarea>
                   </div>
                   <div class="buttonArea" id= "buttonArea">
-                  <button class="submit-button" id ="submitButton"type="submit">Submit</button>
+                  <button class="submit-button" id ="submitBtn" onclick="submit()"type ="submit">Submit</button>
                 </div>
                 </form>
               </div> 
